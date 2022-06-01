@@ -69,7 +69,21 @@ class Person
     else
       "blah blah blah blah blah"
     end
+
+    # Official solution uses case instead of if/else
+    # case topic 
+    # when "politics"
+    #   [self, friend].each { |person| person.happiness -= 2 }
+    #   "blah blah partisan blah lobbyist"
+    # when "weather"
+    #   [self, friend].each { |person| person.happiness += 1 }
+    #   "blah blah sun blah rain"
+    # else
+    #   "blah blah blah blah blah"
+    # end
+
   end
+
 
   def clean?
     self.hygiene > 7
